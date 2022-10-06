@@ -36,3 +36,17 @@ body {
   border-radius: 1rem;
   box-shadow: inset 5px 5px 20px #131418, inset -5px -5px 20px #4d505e;
 }
+
+/* 500px and below */
+@media (max-width: 31.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 350px and below */
+@media (max-width: 21.875em) {
+  html {
+    font-size: 37.5%;
+  }
+}
