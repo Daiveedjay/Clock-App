@@ -23,6 +23,7 @@ function showTime() {
   let time = h + ":" + m + ":" + s + "" + session;
 
   // document.getElementById("clock__display").innerText = time;
+
   document.getElementById("clock__display").textContent = time;
 
   setTimeout(showTime, 1000);
